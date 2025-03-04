@@ -4,9 +4,20 @@ Hyperspectral unmixing methods enable accurate sub-pixel object identification u
 
 DATASET DETAILS
 
-Jasper Ridge is a popular hyperspectral data .There are 512 x 614 pixels in it. Each pixel is recorded at 224 channels ranging from 380 nm to 2500 nm. The spectral resolution is up to 9.46nm. Since this hyperspectral image is too complex to get the ground truth, we consider a sub image of 100 x 100  pixels.
+This work created a suitable dataset for learning the eigen- value pattern from training samples. For this purpose, we considered some widely used hyperspectral datasets such as HyDICE urban data, Jasper Ridge, and Samson shown below..
 
-There are four endmembers latent in this data: "#1 Road", "#2 Soil", "#3 Water" and "#4 Tree".
-![image](https://github.com/user-attachments/assets/09fe42d9-1838-4012-9982-1268f617c77d)
+Jasper Ridge is a popular hyperspectral data .There are 512 x 614 pixels in it. Each pixel is recorded at 224 channels ranging from 380 nm to 2500 nm. The spectral resolution is up to 9.46nm. Since this hyperspectral image is too complex to get the ground truth, we consider a sub image of 100 x 100  pixels.There are four endmembers latent in this data: "#1 Road", "#2 Soil", "#3 Water" and "#4 Tree".
+
+In Samson image, there are 952x 952 pixels. Each pixel is recorded at 156 channels covering the wavelengths from 401 nm to 889 nm. The spectral resolution is highly up to 3.13 nm.
+Specifically, there are three targets in this image, i.e. "#1 Soil", "#2 Tree" and "#3 Water" respectively.
+
+Urban is one of the most widely used hyperspectral data used in the hyperspectral unmixing study. There are 307 x 307 pixels, each of which corresponds to a 2 x 2 m2area. In this image, there are 210 wavelengths ranging from 400 nm  to 2500 nm, resulting in a spectral resolution of 10 nm. There are three versions of ground truth, which contain 4, 5 and 6 endmembers respectively, which are introduced in the ground truth.
+
+
+
+
+
+
+
 
 
